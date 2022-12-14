@@ -7,7 +7,9 @@ def create_table(db: str, src: str, name: str):
     table.to_sql(name, con, index=False)
 
 def create_table(db: str, schema: str, name: str):
+    # empty table
     pass
 
 def populate_table(db: str, src: str, table: str, skipFirst=False):
     pass
+
