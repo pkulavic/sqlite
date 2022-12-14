@@ -11,5 +11,7 @@ def create_table(db: str, schema: str, name: str):
     pass
 
 def populate_table(db: str, src: str, table: str, skipFirst=False):
+    # fill already existing table
     pass
+
 
